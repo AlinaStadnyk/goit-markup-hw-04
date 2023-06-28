@@ -349,6 +349,9 @@ img {
 }
 .footer-container {
 }
+.footer-structure {
+  display: flex;
+}
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -368,7 +371,33 @@ img {
   height: 72px;
   margin-top: 29px;
 }
-
+.footer-sm-header {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  color: #fff;
+  margin-left: 120px;
+}
+.sm-footer-list {
+  display: flex;
+  gap: 16px;
+  margin-left: 120px;
+}
+.sm-footer-link {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  gap: 16px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+.sm-footer-link:hover {
+  background-color: #31d0aa;
+}
 .portfolio-page {
   padding-top: 96px;
   padding-bottom: 120px;
