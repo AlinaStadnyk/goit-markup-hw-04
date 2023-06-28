@@ -453,8 +453,8 @@ img {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .sm-footer-link {
-  width: 100%;
-  height: 100%;
+  width: 40px;
+  height: 40px;
   
 }
 .sm-footer-item:hover,
