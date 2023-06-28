@@ -108,6 +108,21 @@ img {
   position: relative;
   color: #404bbf;
 }
+.active {
+  color: var(--logo-bright);
+  position: relative;
+}
+.active::after {
+  background-color: var(--logo-bright);
+  width: 64px;
+  height: 4px;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-radius: 2px;
+  display: block;
+}
 
 .header-logo {
   font-family: "Raleway", sans-serif;
@@ -133,17 +148,6 @@ img {
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-nav-link:hover::after {
-  background-color: var(--logo-bright);
-  width: 64px;
-  height: 4px;
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  border-radius: 2px;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
