@@ -144,7 +144,7 @@ img {
 }
 .header-nav-link {
   display: block;
-  color: var(--hero-background);
+  color: var(--logo-bright);
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
