@@ -129,6 +129,7 @@ img {
 }
 .header-nav-link {
   display: block;
+  color: var(--hero-background);
   padding-top: 24px;
   padding-bottom: 24px;
   position: relative;
@@ -149,7 +150,7 @@ img {
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-nav-link:active {
-  color: #404bbf;
+  color: var(--logo-bright);
 }
 .header-contacts-list {
   display: flex;
